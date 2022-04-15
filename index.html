@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="build/css/app.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Juan Carlos</title>
     </head>
     <body>
@@ -39,7 +40,7 @@
         <section class="about" id="about">
             <div class="contenedor">
                 <h2>Sobre Mi</h2>
-                <div class="contenido-about">
+                <div class="contenido-about" data-aos="fade-up" data-aos-duration="1000">
                     <div class="about-texto">
                         <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. </p>
                     </div>
@@ -50,10 +51,10 @@
 
         </section>
         <section class="skills" id="skills">
-            <div class="contenedor">
+            <div class="contenedor" >
                 <h2>Tecnologias</h2>
                 <p>Las tecnologías que utilizo para desarrollar los proyectos.</p>
-                <div class="contenedor-skills">
+                <div class="contenedor-skills"data-aos="fade-up" data-aos-duration="1000">
                     <div class="contenedor-icon">
                         <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                         <p>HTML5</p>
@@ -99,11 +100,11 @@
             </div>
         </section>
         <section class="work" id="work">
-            <div class="contenedor">
+            <div class="contenedor" >
                 <h2>Proyectos</h2>
                 <p>Una recopilacion, de algunas plantillas que he realizado.</p>
                 <div class="contenedor-work">
-                    <div class="card cafe">
+                    <div class="card cafe" data-aos="fade-left" data-aos-duration="1000">
                         <div class="cafe-imagen">
                             <picture>
                                 <source srcset="build/img/Captura.webp" type="image/webp">
@@ -124,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card festival">
+                    <div class="card festival" data-aos="fade-right" data-aos-duration="1000">
                         <div class="festival-imagen">
                             <picture>
                                 <source srcset="build/img/Captura2.webp" type="image/webp">
@@ -147,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card tienda">
+                    <div class="card tienda" data-aos="fade-left" data-aos-duration="1000">
                         <div class="tienda-imagen">
                             <picture>
                                 <source srcset="build/img/Captura3.webp" type="image/webp">
@@ -169,7 +170,7 @@
                         </div>
 
                     </div>
-                    <div class="card bienes-raices">
+                    <div class="card bienes-raices" data-aos="fade-right" data-aos-duration="1000">
                         <div class="bienes-imagen">
                             <picture>
                                 <source srcset="build/img/Captura4.webp" type="image/webp">
@@ -202,10 +203,10 @@
 
         </section>
         <section class="contacto" id="contact">
-            <div class="contenedor">
+            <div class="contenedor" >
                 <h2>Contacto</h2>
                 <p>No olvides completar el formulario a continuación para ponerte en contacto conmigo.</p>
-                <div class="contacto-formulario">
+                <div class="contacto-formulario" data-aos="fade-up" data-aos-duration="1000">
                     <form class="formulario" action="https://formspree.io/f/mknyqzbd" method="POST">
                         <input type="text" name="nombre" id="nombre" placeholder="Tu Nombre">
                         <input type="email" name="email" id="email" placeholder="E-mail">
@@ -221,5 +222,9 @@
         
 
         <script src="build/js/bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
